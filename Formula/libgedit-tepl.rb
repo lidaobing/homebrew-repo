@@ -4,6 +4,7 @@ class LibgeditTepl < Formula
   url "https://github.com/gedit-technology/libgedit-tepl/releases/download/6.10.0/libgedit-tepl-6.10.0.tar.xz"
   license "LGPL-3-or-later"
   sha256 "242c4be67719dc4a5361cf91930b1d124091c2fc93c2269628c98d7375b1214d"
+  head "https://gitlab.gnome.org/World/gedit/libgedit-tepl.git", :branch => "main"
 
   depends_on "gobject-introspection" => :build
   depends_on "meson" => :build
